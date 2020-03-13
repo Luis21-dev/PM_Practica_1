@@ -1,7 +1,7 @@
-int ledV = 11;
+int ledR = 11;
 int ledA = 10;
-int ledR = 12;
-int ledV2 = 50;
+int ledV = 12;
+int ledR2 = 51;
 
 
 void setup() {
@@ -21,48 +21,48 @@ void loop() {
   digitalWrite(ledV, HIGH); //2.0s
   digitalWrite(ledR2, HIGH);//4.0s
   
-  delay(500)                //0.5s
+  delay(250);                //0.5s
   digitalWrite(ledR, LOW);
-  delay(500)                //1.0s
+  delay(250);                //1.0s
   digitalWrite(ledR, HIGH);
   digitalWrite(ledA, LOW);
-  delay(500)                //1.5s
+  delay(250);                //1.5s
   digitalWrite(ledR, LOW);
-  delay(500)                //2.0s
+  delay(250);                //2.0s
   digitalWrite(ledR, HIGH);
   digitalWrite(ledA, HIGH);
   digitalWrite(ledV, LOW);
-  delay(500)                //2.5s
+  delay(250);                //2.5s
   digitalWrite(ledR, LOW);
-  delay(500)                //3.0s
+  delay(250);                //3.0s
   digitalWrite(ledR, HIGH);
   digitalWrite(ledA, LOW);
-  delay(500)                //3.5s
+  delay(250);                //3.5s
   digitalWrite(ledR, LOW);
-  delay(500)                //4.0s
+  delay(250);                //4.0s
   digitalWrite(ledR, HIGH);
   digitalWrite(ledA, HIGH);
   digitalWrite(ledV, HIGH);
   digitalWrite(ledR2, LOW);
-  delay(500)                //4.5s
+  delay(250);                //4.5s
   digitalWrite(ledR, LOW);
-  delay(500)                //5.0s
+  delay(250);                //5.0s
   digitalWrite(ledR, HIGH);
   digitalWrite(ledA, LOW);
-  delay(500)                //5.5s
+  delay(250);                //5.5s
   digitalWrite(ledR, LOW);
-  delay(500)                //6.0s
+  delay(250);                //6.0s
   digitalWrite(ledR, HIGH);
   digitalWrite(ledA, HIGH);
   digitalWrite(ledV, LOW);
-  delay(500)                //6.5s
+  delay(250);                //6.5s
   digitalWrite(ledR, LOW);
-  delay(500)                //7.0s
+  delay(250);                //7.0s
   digitalWrite(ledR, HIGH);
   digitalWrite(ledA, LOW);
-  delay(500)                //7.5s
+  delay(250);                //7.5s
   digitalWrite(ledR, LOW);
-  delay(500)                //8.0s
+  delay(250);                //8.0s
 
   
   

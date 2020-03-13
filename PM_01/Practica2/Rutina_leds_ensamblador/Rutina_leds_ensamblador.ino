@@ -54,14 +54,10 @@ asm (
 "call tiempo \n\t" //7.5s
 "cbi 0x05,0x05 \n\t"
 "call tiempo \n\t" //8s
-"sbi 0x05,0x05 \n\t"
-"sbi 0x05,0x04 \n\t"
-"sbi 0x05,0x06 \n\t"
-"sbi 0x05,0x03 \n\t"
-"jmp main \n\t"
+"jmp inicio \n\t"
 
 "tiempo: \n\t"
-"LDI r22, 19 \n\t"
+"LDI r22, 20 \n\t"
 "LOOP_3: \n\t"
 "LDI r21, 255 \n\t"
 "LOOP_2: \n\t"
